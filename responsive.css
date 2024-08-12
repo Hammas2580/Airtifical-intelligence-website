@@ -1,0 +1,117 @@
+ /* ===== webiste color ===== */
+ :root {
+     --primary-color: #1363C6;
+     --secondary-color: #15ACE1;
+     --light-color: #F4F7FE;
+     --dark-color: #14183E;
+ }
+
+ /* ===== fot mobile screen ===== */
+ @media (max-width:576px) {
+
+     /* ==== navbar section ===== */
+     .button_1 {
+         padding: 10px 10px;
+     }
+
+     .button_2 {
+         padding: 5px 5px;
+     }
+
+ }
+
+
+
+ /* ===== for tablets screen ====== */
+ @media (max-width:768px) {
+    
+ }
+
+
+
+
+ /* ====== for destop and loptopn screen ===== */
+ @media (max-width:992px) {
+
+     /* ===== navbar section ===== */
+     .nav-item {
+         padding-top: 20px !important;
+     }
+
+     .navbar_icons {
+         padding: 5px !important;
+     }
+
+     .navbar-brand h1 {
+         font-weight: 700 !important;
+     }
+
+     .navbar-toggler {
+         border: 1px solid var(--light-color) !important;
+     }
+
+     .navbar-toggler .navbar-toggler-icon {
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+     }
+
+     .navbar-collapse {
+         background-color: var(--primary-color) !important;
+     }
+
+
+     /* ===== hero section ===== */
+
+
+     .hero_btn {
+         text-align: center !important;
+     }
+
+     .hero_heading {
+         text-align: center !important;
+     }
+
+     .hero_heading h1 {
+         font-size: 3rem !important;
+     }
+
+     .hero_paragraph {
+         text-align: center !important;
+     }
+
+     .btn_section {
+         text-align: center !important;
+     }
+
+
+
+ }
+
+
+
+
+
+
+ /* ===== for large screen ===== */
+ @media (max-width:1200px) {
+     header {
+         height: auto !important;
+     }
+
+     .hero_images img {
+         margin-top: 200px !important;
+     }
+ }
+
+ /* ========= for large screen ============ */
+ @media (max-width:1400px) {
+
+     /* ===== hero section ===== */
+     header {
+         height: auto !important;
+     }
+
+     .hero_images img {
+         margin-top: 80px !important;
+
+     }
+ }

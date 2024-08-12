@@ -1,0 +1,134 @@
+/* ===== fotn family ===== */
+@font-face {
+   font-family: ubuntu;
+   src: url(./aseets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+/* ===== webiste color ===== */
+:root {
+   --primary-color: #1363C6;
+   --secondary-color: #15ACE1;
+   --light-color: #F4F7FE;
+   --dark-color: #14183E;
+}
+
+/* ======= navbar section ======= */
+header {
+   background-image: url(./aseets/imgaes/hero_banner.png) !important;
+   background-position: center !important;
+   background-size: cover !important;
+   background-color: var(--primary-color) !important;
+   /* height: 90vh; */
+}
+
+.navbar-brand h1 {
+   color: var(--light-color) !important;
+   font-weight: 700 !important;
+}
+
+.navbar-brand h1 span {
+   font-size: 50px !important;
+}
+
+.navbar-nav .nav-link {
+   margin-right: 35px !important;
+   padding: 0px !important;
+   color: rgba(255, 255, 255, .7) !important;
+   font-size: 16px !important;
+   font-family: ubuntu !important;
+}
+
+.navbar_icons .fa-magnifying-glass {
+   color: var(--light-color) !important;
+}
+
+.navbar {
+   position: sticky !important;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1020;
+   background-color:  var(--primary-color) !important;
+   transition: 0.5s !important;
+   padding: 20px 0;
+}
+
+
+/* ======= hero sectio ======= */
+.hero_div {
+   padding-top: 100px !important;
+}
+
+.hero_btn span {
+   color: var(--light-color) !important;
+   border: 1px solid var(--light-color) !important;
+   border-radius: 30px !important;
+   padding: 5px 18px !important;
+   text-align: center !important;
+   font-family: ubuntu !important;
+}
+
+.hero_heading {
+   padding-top: 15px !important;
+}
+
+.hero_heading h1 {
+   font-size: 4rem !important;
+   color: var(--light-color) !important;
+   font-family: ubuntu !important;
+   font-weight: 700 !important;
+}
+
+.hero_paragraph {
+   color: var(--light-color) !important;
+   font-family: ubuntu !important;
+   padding-top: 10px !important;
+   font-weight: 400 !important;
+   font-size: 17px !important;
+}
+
+.btn_section {
+   padding-top: 20px !important;
+}
+
+.btn_section .button_1 {
+   border-radius: 40px !important;
+   padding: 20px 40px !important;
+   background-color: var(--light-color) !important;
+   color: var(--dark-color) !important;
+   font-family: ubuntu !important;
+}
+
+.btn_section .button_2 {
+   border: 1px solid var(--light-color) !important;
+   border-radius: 40px !important;
+   padding: 20px 40px !important;
+   color: var(--light-color) !important;
+   margin-left: 10px !important;
+   font-family: ubuntu !important;
+}
+
+.hero_images img {
+   padding-top: 19px !important;
+   max-width: 100% !important;
+   height: auto !important;
+}
+
+.navbar-toggler {
+   box-shadow: var(--light-color) !important;
+}
+
+.navbar-toggler-icon {
+   color: var(--light-color) !important;
+}
+/* ====== about section ======== */
+.main_div {
+   position: absolute ;
+   content: "" ;
+   width: 100% !important;
+   height: 100% !important;
+   top: 0 !important;
+   left: 0 !important;
+   background: url(./aseets/imgaes/bg-about-img.png) top left no-repeat !important;
+   background-size: contain !important;
+}
