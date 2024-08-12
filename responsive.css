@@ -17,15 +17,22 @@
      .button_2 {
          padding: 5px 5px;
      }
+     /* ===== hero section ===== */
+     .hero_images img {
+        padding-top: 0px !important;
+    }
+     /* ===== about sectio ===== */
+     .about_section_content  {
+        padding-left: 10px  !important;
+        padding-top: 50px !important;
+     }
 
  }
 
 
 
  /* ===== for tablets screen ====== */
- @media (max-width:768px) {
-    
- }
+ @media (max-width:768px) {}
 
 
 
@@ -81,9 +88,13 @@
      .btn_section {
          text-align: center !important;
      }
-
-
-
+     /* ===== about section ===== */
+     .about_wrapper {
+        padding-top: 0px !important;
+    }
+    .about_images{
+        padding-top: 0px !important;
+    }
  }
 
 
@@ -98,8 +109,25 @@
      }
 
      .hero_images img {
-         margin-top: 200px !important;
+         padding-top: 120px !important;
      }
+
+     /* ===== about section ===== */
+     .about_wrapper {
+         padding-top: 0px !important;
+         margin-top: 0px !important;
+     }
+
+     .about_images img {
+         margin-top: 170px !important;
+         background-color: black !important;
+     }
+
+     .about_images::after {
+         margin-top: 170px !important;   
+
+     }
+
  }
 
  /* ========= for large screen ============ */

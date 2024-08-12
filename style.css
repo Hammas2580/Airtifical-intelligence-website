@@ -10,6 +10,8 @@
    --secondary-color: #15ACE1;
    --light-color: #F4F7FE;
    --dark-color: #14183E;
+   --light-white: #dee2e6;
+
 }
 
 /* ======= navbar section ======= */
@@ -24,6 +26,7 @@ header {
 .navbar-brand h1 {
    color: var(--light-color) !important;
    font-weight: 700 !important;
+   font-family: ubuntu !important;
 }
 
 .navbar-brand h1 span {
@@ -48,7 +51,7 @@ header {
    left: 0;
    width: 100%;
    z-index: 1020;
-   background-color:  var(--primary-color) !important;
+   background-color: var(--primary-color) !important;
    transition: 0.5s !important;
    padding: 20px 0;
 }
@@ -56,7 +59,7 @@ header {
 
 /* ======= hero sectio ======= */
 .hero_div {
-   padding-top: 100px !important;
+   padding-top: 130px !important;
 }
 
 .hero_btn span {
@@ -121,14 +124,107 @@ header {
 .navbar-toggler-icon {
    color: var(--light-color) !important;
 }
+
 /* ====== about section ======== */
-.main_div {
-   position: absolute ;
-   content: "" ;
-   width: 100% !important;
-   height: 100% !important;
-   top: 0 !important;
-   left: 0 !important;
+.about_wrapper {
+   padding-top: 5rem !important;
+}
+
+.about_images {
+   position: relative;
+   /* Parent element ko positioned karo */
+}
+
+.about_images::after {
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
    background: url(./aseets/imgaes/bg-about-img.png) top left no-repeat !important;
    background-size: contain !important;
+   /* z-index: 1 !important; */
+}
+
+.about_section_content {
+   padding-top: 7rem !important;
+   padding-left: 2rem !important;
+}
+
+
+.about_name_section span {
+   border: 1px solid var(--light-white) !important;
+   border-radius: 50rem !important;
+   padding: 5px !important;
+   padding-right: 1rem !important;
+   padding-left: 1rem !important;
+   color: var(--primary-color) !important;
+   font-size: 1rem;
+
+}
+
+.about_heading {
+   margin-top: 20px !important;
+
+}
+
+.about_heading h1 {
+   font-family: ubuntu !important;
+   line-height: 1.2 !important;
+   color: #14183e !important;
+   font-weight: 900 !important;
+}
+
+.about_parapragh {
+   margin-top: 1rem !important;
+
+}
+
+.about_parapragh p {
+   font-size: 17px !important;
+}
+
+.about_icon {
+   margin-top: 10px !important;
+}
+
+.about_icon .fa-check {
+   color: var(--primary-color) !important;
+   font-weight: 700 !important;
+   font-size: 15px !important;
+}
+
+.icon_name {
+   margin-left: 8px !important;
+}
+
+.icon_name {
+   font-size: 1rem !important;
+   font-family: ubuntu !important;
+   color: var(--dark-color) !important;
+   font-weight: 500 !important;
+}
+
+.socail_media_icon {
+   padding-top: 15px !important;
+}
+.btn {
+   background-color: var(--primary-color) !important;
+   font-size: 17px !important;
+   font-weight: 500 !important;
+}
+.btn:hover{
+   color: #fff !important;
+   background-color: #1054a8 !important;
+   border-color: #0f4f9e !important;
+}
+
+.fa-brands {
+   margin: 5px !important;
+   color: var(--primary-color) !important;
+   border: 1px solid var(--primary-color) !important;
+   padding: 10px  12px !important;
+   border-radius: 100% !important;
+
 }
