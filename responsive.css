@@ -73,6 +73,28 @@
      .feature_images {
          padding-top: 50px !important;
      }
+
+     /* ===== images section ===== */
+     .imgaes_card1 {
+         margin-top: 20px !important;
+     }
+
+     .imgaes_card2 {
+         margin-top: 20px !important;
+     }
+
+     .imgaes_card3 {
+         margin-top: 20px !important;
+     }
+
+     .images_heading {
+         padding: 5px !important;
+         margin-top: 10px !important;
+     }
+
+     .images_heading h1 {
+         font-size: 30px !important;
+     }
  }
 
 
@@ -146,6 +168,19 @@
 
      .card_section {
          padding-top: 100px !important;
+     }
+
+     /* ===== images section ===== */
+     .imgaes_card1 {
+         margin-top: 20px !important;
+     }
+
+     .imgaes_card2 {
+         margin-top: 20px !important;
+     }
+
+     .imgaes_card3 {
+         margin-top: 20px !important;
      }
 
  }
