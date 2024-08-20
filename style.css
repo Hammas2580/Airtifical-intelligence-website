@@ -16,12 +16,16 @@
 
 /* ======= navbar section ======= */
 header {
-   background-image: url(./aseets/imgaes/hero_banner.png) !important;
-   background-position: center !important;
-   background-size: cover !important;
+   position: sticky !important;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1020;
    background-color: var(--primary-color) !important;
-   /* height: 90vh; */
+   transition: 0.5s !important;
 }
+
+
 
 .navbar-brand h1 {
    color: var(--light-color) !important;
@@ -45,20 +49,17 @@ header {
    color: var(--light-color) !important;
 }
 
-.navbar {
-   position: sticky !important;
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 1020;
-   background-color: var(--primary-color) !important;
-   transition: 0.5s !important;
-   padding: 20px 0;
-}
-
-
 /* ======= hero sectio ======= */
 .hero_div {
+   background-image: url(./aseets/imgaes/hero_banner.png) !important;
+   background-position: center !important;
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   background-color: var(--primary-color) !important;
+
+}
+
+.hero_section {
    padding-top: 130px !important;
 }
 
@@ -112,7 +113,7 @@ header {
 }
 
 .hero_images img {
-   padding-top: 19px !important;
+   margin-top: 55px !important;
    max-width: 100% !important;
    height: auto !important;
 }
@@ -209,12 +210,14 @@ header {
 .socail_media_icon {
    padding-top: 15px !important;
 }
+
 .btn {
    background-color: var(--primary-color) !important;
    font-size: 17px !important;
    font-weight: 500 !important;
 }
-.btn:hover{
+
+.btn:hover {
    color: #fff !important;
    background-color: #1054a8 !important;
    border-color: #0f4f9e !important;
@@ -224,7 +227,338 @@ header {
    margin: 5px !important;
    color: var(--primary-color) !important;
    border: 1px solid var(--primary-color) !important;
-   padding: 10px  12px !important;
+   padding: 10px 12px !important;
    border-radius: 100% !important;
 
+}
+
+.fa-brands:hover {
+   background-color: var(--primary-color) !important;
+   color: var(--light-white) !important;
+}
+
+/* ===== card section ======= */
+
+.card_wrapper {
+   background-color: #f4f7fe !important;
+   margin-top: 100px !important;
+   padding-bottom: 80px !important;
+}
+
+.card_section {
+   padding-top: 350px !important;
+
+}
+
+.card_title span {
+   border: 1px solid var(--light-white) !important;
+   border-radius: 50rem !important;
+   padding: 5px !important;
+   padding-right: 1rem !important;
+   padding-left: 1rem !important;
+   color: var(--primary-color) !important;
+   font-size: 1rem;
+}
+
+.card_sub_tittle {
+   padding-top: 15px !important;
+}
+
+.card_sub_tittle h1 {
+   font-family: ubuntu !important;
+   color: #14183e !important;
+   font-weight: 700 !important;
+   /* font-size: 3rem !important; */
+}
+
+.card_paragraph {
+   padding-top: 20px !important;
+}
+
+.card_paragraph p {
+   font-size: 16px !important;
+}
+
+.card_btn {
+   padding-top: 10px !important;
+}
+
+.card_section_1 {
+   display: flex !important;
+   justify-content: center !important;
+}
+
+.card {
+   width: 360px !important;
+   height: 400px !important;
+   padding: 50px 30px !important;
+   border: none !important;
+   margin-top: 100px !important;
+
+}
+
+.card:hover {
+   background-color: var(--primary-color) !important;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .card_btn {
+   color: var(--light-white) !important;
+}
+
+.card_item {
+   margin-top: 120px !important;
+   margin-left: 10px !important;
+}
+
+.card-item1 {
+   margin-top: 0px !important;
+}
+
+.card-item3 {
+   margin-top: 20px !important;
+}
+
+.card-body {
+   /* padding-top: 50px !important; */
+}
+
+.card-body .fa-robot {
+   width: 90px !important;
+   height: 90px !important;
+   border-radius: 100% !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+   margin: 0 auto !important;
+   background-color: #f4f7fe !important;
+   font-size: 30px !important;
+   color: var(--primary-color) !important;
+
+}
+
+.card-body .fa-graduation-cap {
+   width: 90px !important;
+   height: 90px !important;
+   border-radius: 100% !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+   margin: 0 auto !important;
+   background-color: #f4f7fe !important;
+   font-size: 30px !important;
+   color: var(--primary-color) !important;
+}
+
+.card-body .fa-power-off {
+   width: 90px !important;
+   height: 90px !important;
+   border-radius: 100% !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+   margin: 0 auto !important;
+   background-color: #f4f7fe !important;
+   font-size: 30px !important;
+   color: var(--primary-color) !important;
+}
+
+.card-body .fa-brain {
+   width: 90px !important;
+   height: 90px !important;
+   border-radius: 100% !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+   margin: 0 auto !important;
+   background-color: #f4f7fe !important;
+   font-size: 30px !important;
+   color: var(--primary-color) !important;
+}
+
+.card-title {
+   font-family: ubuntu !important;
+   padding-top: 20px !important;
+   letter-spacing: 1px !important;
+}
+
+.card-text {
+   color: var(--dark-color) !important;
+}
+
+.card_btn {
+   color: var(--primary-color) !important;
+   text-decoration: none !important;
+
+}
+
+/* ===== feature section ===== */
+.feature_wrapper {
+   background-image: url(./aseets/imgaes/hero_banner.png) !important;
+   background-size: cover !important;
+   background-color: var(--primary-color) !important;
+   padding: 10px !important;
+}
+
+.feature_section {
+   padding-top: 100px !important;
+}
+
+.feature_section_heading span {
+   border: 1px solid var(--light-color) !important;
+   border-radius: 50rem !important;
+   padding: 5px !important;
+   padding-right: 1rem !important;
+   padding-left: 1rem !important;
+   color: var(--light-white) !important;
+   font-size: 1rem;
+   font-weight: 600 !important;
+}
+
+.feature_heading {
+   padding-top: 20px !important;
+}
+
+.feature_heading h1 {
+   color: var(--light-color) !important;
+   font-weight: 900 !important;
+   font-family: ubuntu !important;
+}
+
+.feature_sub_heading {
+   padding-top: 10px !important;
+}
+
+.feature_sub_heading p {
+   color: var(--light-color) !important;
+   font-size: 18px !important;
+}
+
+.sub_title_icon {
+   margin-top: 20px !important;
+
+}
+
+.feature_icon {
+   margin-top: 20px !important;
+}
+
+.feature_icon .fa-check {
+   color: var(--primary-color) !important;
+   background-color: var(--light-color) !important;
+   border-radius: 100% !important;
+   padding: 8px !important;
+   font-weight: 900 !important;
+   font-size: 20px !important;
+}
+
+.feature_icon .icon_heading {
+   color: var(--light-color) !important;
+   margin-left: 10px !important;
+   text-align: center !important;
+   font-family: ubuntu !important;
+}
+
+.feature_user_counter {
+   display: flex !important;
+}
+
+.feature_userr {
+   display: flex !important;
+   background-color: rgba(256, 256, 256, 0.1) !important;
+   border-radius: 10px !important;
+   width: 400px !important;
+   margin-top: 30px !important;
+}
+
+.feature_userr {
+   display: flex !important;
+   background-color: rgba(256, 256, 256, 0.1) !important;
+   border-radius: 10px !important;
+   width: 400px !important;
+   margin-top: 30px !important;
+}
+
+.feature_user2 {
+   margin-left: 25px !important;
+}
+
+.feature_userr .fa-users {
+   padding-top: 20px !important;
+   color: var(--light-color) !important;
+   font-size: 50px !important;
+   margin-left: 15px !important;
+   font-weight: bolder !important;
+}
+
+.feature_counter {
+   margin-left: 20px !important;
+   margin-top: 10px !important;
+}
+
+.feature_counter h2 {
+   color: var(--light-color) !important;
+   font-family: ubuntu !important;
+   font-weight: 700 !important;
+}
+
+.feature_counter p {
+   color: var(--light-color) !important;
+   font-size: 18px !important;
+}
+
+.feature_userr .fa-check {
+   padding-top: 20px !important;
+   color: var(--light-color) !important;
+   font-size: 50px !important;
+   margin-left: 15px !important;
+   font-weight: 700 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feature_images {
+   padding-top: 150px !important;
+   text-align: center !important;
+}
+
+.feature_images img {
+   margin-left: 80px !important;
 }

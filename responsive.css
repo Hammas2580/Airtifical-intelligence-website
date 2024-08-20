@@ -17,14 +17,27 @@
      .button_2 {
          padding: 5px 5px;
      }
-     /* ===== hero section ===== */
-     .hero_images img {
-        padding-top: 0px !important;
-    }
+
+
      /* ===== about sectio ===== */
-     .about_section_content  {
-        padding-left: 10px  !important;
-        padding-top: 50px !important;
+     .about_section_content {
+         padding-left: 10px !important;
+         padding-top: 50px !important;
+     }
+
+     .card {
+         width: 100% !important;
+     }
+
+     /* ===== feature section ===== */
+     .feature_user_counter {
+         display: inline-block !important;
+         width: 98% !important;
+         margin-left: 0px !important;
+     }
+
+     .feature_userr {
+         width: 100% !important;
      }
 
  }
@@ -32,7 +45,35 @@
 
 
  /* ===== for tablets screen ====== */
- @media (max-width:768px) {}
+ @media (max-width:768px) {
+
+     /* ===== card section ===== */
+     .card {
+         width: 100% !important;
+     }
+
+     .card_item {
+         margin-top: 30px !important;
+         margin-left: 0px !important;
+     }
+
+     .card-item1 {
+         margin-top: 20px !important;
+     }
+
+     /* ===== feature section ===== */
+     .feature_images img {
+         margin-left: 0px !important;
+     }
+
+     .feature_user2 {
+         margin-left: 0px !important;
+     }
+
+     .feature_images {
+         padding-top: 50px !important;
+     }
+ }
 
 
 
@@ -88,13 +129,25 @@
      .btn_section {
          text-align: center !important;
      }
+
      /* ===== about section ===== */
      .about_wrapper {
-        padding-top: 0px !important;
-    }
-    .about_images{
-        padding-top: 0px !important;
-    }
+         padding-top: 0px !important;
+     }
+
+     .about_images {
+         padding-top: 0px !important;
+     }
+
+     /* ===== cards section ===== */
+     .card {
+         width: 100% !important;
+     }
+
+     .card_section {
+         padding-top: 100px !important;
+     }
+
  }
 
 
@@ -108,9 +161,6 @@
          height: auto !important;
      }
 
-     .hero_images img {
-         padding-top: 120px !important;
-     }
 
      /* ===== about section ===== */
      .about_wrapper {
@@ -124,8 +174,13 @@
      }
 
      .about_images::after {
-         margin-top: 170px !important;   
+         margin-top: 170px !important;
 
+     }
+
+     /* ===== card section ===== */
+     .card {
+         width: 100% !important;
      }
 
  }
@@ -138,8 +193,9 @@
          height: auto !important;
      }
 
-     .hero_images img {
-         margin-top: 80px !important;
-
+     /* ===== card section ===== */
+     .card {
+         width: 100% !important;
+         height: auto !important;
      }
  }
